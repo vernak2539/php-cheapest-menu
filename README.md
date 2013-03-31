@@ -6,7 +6,7 @@ So this is me posting my solution. But the company it was created for will remai
 ## What's the problem
 You need to find a place to eat. But you're feeling cheap and don't want to spent too much money. You want to find out what restaurant is the cheapest based on what you want to eat.
 
-## The Menu Format?
+### The Menu Format
 The menus are CSV files. They are set up in the following format:
 
     X, Y, Z
@@ -23,7 +23,7 @@ Where:
     2, 5.00, ham_sandwich
     2, 6.50, burrito
 
-## Using the PHP class
+### Using the PHP class
 The `index.php` file is the example of how to use this class. If you don't want to look, here's the basics
 ```php
     // including class
