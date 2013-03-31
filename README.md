@@ -26,12 +26,12 @@ Where:
 ### Using the PHP class
 The `index.php` file is the example of how to use this class. If you don't want to look, here's the basics
 ```php
-    // including class
-    include("menuClass.php");
+// including class
+include("menuClass.php");
 
-    // initializing PHP class from one of the menus in the repo
-    new Menu('menu3.csv', array('fish_sandwich', 'milkshake'));
+// initializing PHP class from one of the menus in the repo
+new Menu('menu3.csv', array('fish_sandwich', 'milkshake'));
 
-    // expected output
-    // 6, 11.0
+// expected output
+// 6, 11.0
 ```
